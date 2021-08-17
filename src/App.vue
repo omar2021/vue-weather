@@ -33,6 +33,8 @@ export default {
 
   #App{
     background-image: url('./assets/weatherFW.jpg');
+    /* Photo by noaa-99f4 - Unsplash  */
+  
     background-size: cover;
     background-position: bottom;
     transition: 0.5s;
