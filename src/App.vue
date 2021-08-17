@@ -46,20 +46,21 @@ export default {
 
   .search-box{
     width: 100%;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
     }
 
     .search-box .search-bar{
       display: block;
       width: 100%;
-      padding: 15%;
+      padding: 10px;
       color: black;
-      font-size: 20px;
+      font-size: 25px;
       appearance: none;
       border: none;
       outline: none;
       background: none;
       background-color: rgb(255, 255, 255, 0.5);
+      border-radius: 5px 16px 10px 27px;
 
     }
 </style>8
