@@ -20,7 +20,7 @@ export default {
 </script>
 
 <style>
-. {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -31,7 +31,35 @@ export default {
     font-family: 'montserrat', sans-serif;
     }
 
-  /* #App{
-    background-image: ;
-    } */
-</style>
+  #App{
+    background-image: url('./assets/weatherFW.jpg');
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.5s;
+    }
+
+  main{
+    min-height: 100vh;
+    padding: 25px;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0.75) );
+    }
+
+  .search-box{
+    width: 100%;
+    margin-bottom: 35px;
+    }
+
+    .search-box .search-bar{
+      display: block;
+      width: 100%;
+      padding: 15%;
+      color: black;
+      font-size: 20px;
+      appearance: none;
+      border: none;
+      outline: none;
+      background: none;
+      background-color: rgb(255, 255, 255, 0.5);
+
+    }
+</style>8
