@@ -35,18 +35,18 @@ export default {
 </script>
 
 <style>
-* {
+  * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 
   }
 
-  body{
+    body{
     font-family: 'montserrat', sans-serif;
     }
 
-  #App{
+    #App{
     background-image: url('./assets/weatherFW.jpg');
     /* Photo by noaa-99f4 - Unsplash  */
   
@@ -55,13 +55,13 @@ export default {
     transition: 0.5s;
     }
 
-  main{
+    main{
     min-height: 100vh;
     padding: 25px;
     background-image: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0.75) );
     }
 
-  .search-box{
+    .search-box{
     width: 100%;
     margin-bottom: 30px;
     }
@@ -86,5 +86,23 @@ export default {
       box-shadow: 0px 0px 16px rgba(0,0,0,0.25);
       background-color: rgb(255, 255, 255, 0.5);
       border-radius: 16px 0px 16px 0px;
-      }
+    }
+
+    .location-box .location {
+        color: #ffD;
+        font-size: 34px;
+        font-weight: 500;
+        text-align: center;
+        text-shadow: rgba(0,0,0,0.25);
+    }
+
+    .location-box .date {
+      color: #ffD;
+      font-size: 22px;
+      font-weight: 400;
+      font-style: italic;
+      text-align: center;
+    }
+
+
 </style>
