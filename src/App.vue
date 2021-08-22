@@ -84,6 +84,11 @@ methods: {
     transition: 0.5s;
     }
 
+    #App.warm{
+      background-image: url('./assets/weatherWarm.jpg');
+      /* Photo by Mick Haupt - Unsplash */
+    }
+
     main{
     min-height: 100vh;
     padding: 25px;
