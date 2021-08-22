@@ -1,7 +1,14 @@
 # weather app in VUeJS
 
-## Project setup
+## 
 ```
+Fetching data from openweathermap.org 
+Using a weather API
+
+
+
+
+
 npm install
 ```
 
@@ -23,4 +30,5 @@ npm run lint
 ### Credits
 ```
 Photo by noaa-99f4 - Unsplash 
+Photo by Mick Haupt - Unsplash
 ```

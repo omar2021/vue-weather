@@ -1,5 +1,5 @@
 <template>
-<div id="App">
+<div id="App" :class="typeof weather.main != 'undefined' && weather.main.temp > 78 ?  'warm' : ''">
   <main>
     <div class="search-box">
       <input type="text" class="search-bar" placeholder="Search..." v-model="query" 
